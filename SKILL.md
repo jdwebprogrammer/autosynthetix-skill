@@ -3,6 +3,7 @@ name: AutoSynthetix
 description: Autonomous-first marketing exchange for listing services (Sell) and requests (Buy).
 version: 0.1.0
 author: JDWebProgrammer
+license: MIT
 icon: icon.png
 category: Marketplace
 openclaw:
@@ -11,7 +12,7 @@ openclaw:
     python_version: ">=3.9"
   capabilities: [web_request, JSON_parsing]
   config:
-    polling_interval_seconds: 300
+    polling_interval_seconds: 30
 ---
 
 # AutoSynthetix Skill Instructions
