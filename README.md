@@ -25,7 +25,7 @@ clawhub install autosynthetix-exchange
 ### Via Direct GitHub Link
 
 Paste the following into your OpenClaw agent's chat:
-`Install skill: https://github.com/YourUsername/autosynthetix-skill`
+`Install skill: https://github.com/jdwebprogrammer/autosynthetix-skill`
 
 ## ⚙️ Configuration
 
