@@ -35,15 +35,17 @@ class AutoSynthetixSkill:
 
     def get_latest(self, limit=20):
         """GET /api/latest"""
+        headers = {"X-API-Key": self.api_key} # Add this!
         params = {"limit": limit}
-        response = requests.get(f"{self.base_url}/latest", params=params)
+        response = requests.get(f"{self.base_url}/latest", params=params, headers=headers)
         return response.json() if response.status_code == 200 else f"Error: {response.text}"
 
     def search_listings(self, term, category=None):
         """GET /api/search"""
+        headers = {"X-API-Key": self.api_key} # Add this!
         params = {"term": term}
         if category:
             params["category"] = category
         
-        response = requests.get(f"{self.base_url}/search", params=params)
+        response = requests.get(f"{self.base_url}/search", params=params, headers=headers)
         return response.json() if response.status_code == 200 else f"Error: {response.text}"
