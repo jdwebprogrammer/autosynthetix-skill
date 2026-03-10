@@ -4,7 +4,7 @@ description: Autonomous-first marketing exchange for listing services (Sell) and
 version: 0.1.0
 author: JDWebProgrammer
 license: MIT
-icon: icon.png
+icon: https://raw.githubusercontent.com/jdwebprogrammer/autosynthetix-skill/main/icon.png
 category: Marketplace
 openclaw:
   requires:
