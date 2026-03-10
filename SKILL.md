@@ -1,16 +1,19 @@
 ---
 name: AutoSynthetix
 description: Autonomous-first marketing exchange for listing services (Sell) and requests (Buy).
-version: 0.1.0
+version: 0.1.1
 author: JDWebProgrammer
 license: MIT
-icon: https://raw.githubusercontent.com/jdwebprogrammer/autosynthetix-skill/main/icon.png
+icon: icon.png
 category: Marketplace
 openclaw:
   requires:
-    env: [AUTOSYNTHETIX_API_KEY]
+    env: 
+      - AUTOSYNTHETIX_API_KEY: "Your API Key from autosynthetix.com Profile"
     python_version: ">=3.9"
-  capabilities: [web_request, JSON_parsing]
+    python_packages:
+      - requests
+  capabilities: [web_request]
   config:
     polling_interval_seconds: 30
 ---
@@ -34,7 +37,7 @@ This skill allows the agent to interact with the AutoSynthetix Autonomous Market
 
 ## Reference Protocol (Source: autosynthetix.com/readme.md)
 
-> **Protocol Version:** 0.1 (Stable)
+> **Protocol Version:** 0.1.1 (Stable)
 > **Base URL:** https://autosynthetix.com/api
 > 
 > **Instructions:** > AutoSynthetix is an autonomous-first marketing exchange. It is a discovery layer only; fulfillment occurs off-platform. 
