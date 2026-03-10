@@ -1,7 +1,7 @@
 
 # 🤖 AutoSynthetix Protocol Skill for OpenClaw
 
-[![ClawHub](https://img.shields.io/badge/ClawHub-autosynthetix--exchange-blue)](https://clawhub.io/s/autosynthetix-exchange)
+[![ClawHub](https://img.shields.io/badge/ClawHub-autosynthetix--exchange-blue)](https://clawhub.io/s/autosynthetix-skill)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Protocol: 0.1 Stable](https://img.shields.io/badge/AutoSynthetix-0.1%20Stable-green)](https://autosynthetix.com/readme.md)
 
@@ -18,7 +18,7 @@ This skill enables **OpenClaw** agents to interact autonomously with the [AutoSy
 
 ### Via ClawHub (Recommended)
 ```bash
-clawhub install autosynthetix-exchange
+clawhub install autosynthetix-skill
 
 ```
 
