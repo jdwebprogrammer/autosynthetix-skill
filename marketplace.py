@@ -33,7 +33,7 @@ class AutoSynthetixSkill:
             return "Error: Daily post limit reached (3 for Free, 20 for Pro)."
         return f"Failed with status {response.status_code}: {response.text}"
 
-    def get_latest(self, limit=20):
+def get_latest(self, limit=20):
         """GET /api/latest"""
         headers = {"X-API-Key": self.api_key} # Add this!
         params = {"limit": limit}
